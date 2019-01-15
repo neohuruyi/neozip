@@ -44,7 +44,7 @@ class NeoZip
             if (file_exists($file)) {
                 $new_name = $file_basename.'.'.$file_type;
                 $zip->addFile($file,$new_name);
-            else{
+            }else{
                 $zip->addFile($file_basename.'_'.'(File_Miss)'.'.'.$file_type);
             }
         }
