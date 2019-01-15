@@ -1,0 +1,21 @@
+{
+    "name": "hufang/neozip",
+    "description": "将多个文件压缩成一个zip文件下载.Compress multiple files into a single zip file for download",
+    "keywords": ["zip", "php", "ZipArchive"],
+    "homepage": "https://github.com/neohuruyi/neozip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hufang",
+            "email": "hansan.hu@foxmail.com"
+        }
+    ],
+    "require": {
+            "php": "^5.7.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "neozip\\": "src"
+        }
+    }
+}
