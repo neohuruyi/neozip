@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "neozip\\": "src"
+            "hufang\\neozip\\": "src"
         }
     },
     "minimum-stability": "dev"
