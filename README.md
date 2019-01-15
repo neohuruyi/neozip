@@ -14,13 +14,14 @@ composer require hufang/neozip
 use hufang\NeoZip\NeoZip;
 
 $file_arr = [
-	0=>'file1_path',
+	0=>'file1_path', //值为文件路径 默认是public下的文件
 	1=>'file2_path',
+	2=>'/uploads/c5a.png',
 ];
 
 
 // 下载download
-NeoZip::zipAndDownload(file_arr);
+NeoZip::zipAndDownload($file_arr);
 
 
 ````
