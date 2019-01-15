@@ -36,13 +36,13 @@ class NeoZip
             ];
             return $info;
         }
-        
         foreach ($files as $key => $v) {
             $file = public_path(ltrim($v,'/'));
             $file_type = pathinfo($file, PATHINFO_EXTENSION);  //文件类型，取后缀
             $file_basename = basename($file);
             if (file_exists($file)) {
-                $new_name = $file_basename.'.'.$file_type;
+                //$new_name = $other_name.'.'.$file_type; //可以给没个文件单命名
+                $new_name = $file_basename;
                 $zip->addFile($file,$new_name);
             }else{
                 $zip->addFile($file_basename.'_'.'(File_Miss)'.'.'.$file_type);
