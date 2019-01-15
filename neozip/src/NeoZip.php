@@ -8,7 +8,7 @@ namespace hufang\neozip;
  * @link    https://github.com/
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  */
-class Hanzi
+class NeoZip
 {
     
     const VERSION = '0.1.0';
