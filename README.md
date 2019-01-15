@@ -11,7 +11,7 @@ composer require hufang/neozip
 
 # 使用示例demo
 ````
-use hufang/neozip;
+use hufang\neozip\NeoZip;
 
 $file_arr = [
 	0=>'file1_path',
